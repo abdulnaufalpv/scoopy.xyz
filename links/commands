@@ -1,0 +1,1217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Scoopy Commands</title>
+      <title>Scoopy | A cool multipurpose Discord bot</title>
+<meta name= “robots” content= “INDEX, FOLLOW”>
+<meta name="description" content="Scoopy is the most complete & easy-to-use Discord bot! Features: <hr> Moderation <hr> Info <hr> Economy <hr> Giveaway <hr> ChatBot <hr> Fun <hr> Image Manipulation <hr> Ticket System <hr> Music with Filters <hr> and some Other Commands.">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Scoopy">
+<meta property="og:description" content="scoopy is the most complete & easy-to-use Discord bot! Features: <hr> Moderation <hr> Info <hr> Economy  <hr> Giveaway <hr> ChatBot <hr> Fun <hr> Image Manipulation <hr> Ticket System <hr> Music with Filters <hr> and some Other Commands.">
+<meta property="og:url" content="https://www.scoopy.xyz">
+<meta property="og:image" content="icons/scoopy.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="icons/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#1ea4fa">
+<meta name="author" content="scoopy">
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+         <link rel="stylesheet" href="/index.css">        
+        <link rel="stylesheet" href="/commands.css">
+        <title>scoopy</title>   
+    </head>
+	<body style="background-color:#23272a;">
+
+    <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  
+      <div class="d-flex justify-content-center command_head">
+      <h1> scoopy commands (comming soon)</h1>
+      </div>
+      
+      <!-- Command Menu -->
+
+  <div class="container px-lg-5" id="commands_menu">
+      <div class="row">
+  <div class="col-sm-3" id="category">
+    <div class="list-group" id="myList" role="tablist">
+  
+      <a class="list-group-item list-group-item-action active"  data-bs-toggle="list" href="#MODERATION" role="tab" aria-controls="MODERATION">MODERATION</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#ECONOMY" role="tab" aria-controls="ECONOMY">ECONOMY</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#GIVEAWEAY" role="tab" aria-controls="GIVEAWEAY">GIVEAWEAY</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#GAMES" role="tab" aria-controls="GAMES">GAMES</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#FUN" role="tab" aria-controls="FUN">FUN</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#IMAGE" role="tab" aria-controls="IMAGE">IMAGE</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#MUSIC" role="tab" aria-controls="MUSIC">MUSIC</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#NSFW" role="tab" aria-controls="NSFW">NSFW</a>
+    
+      <a class="list-group-item list-group-item-action "  data-bs-toggle="list" href="#BASIC" role="tab" aria-controls="BASIC">BASIC</a>
+    
+    </div>
+  </div>
+  <div class="col-sm-9">
+    <div class="tab-content">
+  
+      <div class="tab-pane fade show active" id="MODERATION" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_MODERATION">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        BAN
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Bans mention user from server
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.ban]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.ban @user reason &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_unban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_unban" aria-expanded="true" aria-controls="unban">
+        UNBAN
+      </button>
+    </h2>
+    <div id="c_unban" class="accordion-collapse collapse show" aria-labelledby="h_unban" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Unbans mention user from server
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.unban]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.unban @user reason &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_nick">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_nick" aria-expanded="true" aria-controls="nick">
+        NICK
+      </button>
+    </h2>
+    <div id="c_nick" class="accordion-collapse collapse show" aria-labelledby="h_nick" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>change user name
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.nick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.nick @user name &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="true" aria-controls="kick">
+        KICK
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse show" aria-labelledby="h_kick" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Kicks mention user
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.kick @user reason &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_clear ">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_clear " aria-expanded="true" aria-controls="clear ">
+        CLEAR
+      </button>
+    </h2>
+    <div id="c_clear" class="accordion-collapse collapse show" aria-labelledby="h_clear " data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>clear channel messages
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.clear]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.clear number &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_voicekick">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_voicekick" aria-expanded="true" aria-controls="voicekick">
+        VOICE KICK
+      </button>
+    </h2>
+    <div id="c_voicekick" class="accordion-collapse collapse show" aria-labelledby="h_voicekick" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Kicks mention user from Voice Channel
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.voicekick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.voicekick @user &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute ">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_mute " aria-expanded="true" aria-controls="mute ">
+        MUTE
+      </button>
+    </h2>
+    <div id="c_mute " class="accordion-collapse collapse show" aria-labelledby="h_mute " data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Mutes mention user
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.mute @user reason &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_unmute">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_unmute" aria-expanded="true" aria-controls="unmute">
+        UNMUTE
+      </button>
+    </h2>
+    <div id="c_unmute" class="accordion-collapse collapse show" aria-labelledby="h_unmute" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Unmutes mention user
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.unmute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.unmute @user &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_warn">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_warn" aria-expanded="true" aria-controls="warn">
+        WARN
+      </button>
+    </h2>
+    <div id="c_warn" class="accordion-collapse collapse show" aria-labelledby="h_warn" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>warns mention user
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.warn]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.warn @user reason &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_warnings">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_warnings" aria-expanded="true" aria-controls="warnings">
+        WARNING
+      </button>
+    </h2>
+    <div id="c_warnings" class="accordion-collapse collapse show" aria-labelledby="h_warnings" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Check warnings
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.warning]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.warnings / warnings @user &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_resetwarns">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_resetwarns" aria-expanded="true" aria-controls="resetwarns">
+        RESET WARNS
+      </button>
+    </h2>
+    <div id="c_resetwarns" class="accordion-collapse collapse show" aria-labelledby="h_resetwarns" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Reset warns count
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.resetwarns]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.resetwarns @user &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_addrole">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_addrole" aria-expanded="true" aria-controls="addrole">
+        ADD ROLE
+      </button>
+    </h2>
+    <div id="c_addrole" class="accordion-collapse collapse show" aria-labelledby="h_addrole" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Adds role to user
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.addrole]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.addrole @user @role &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_removerole ">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_removerole " aria-expanded="true" aria-controls="removerole ">
+        REMOVE ROLE
+      </button>
+    </h2>
+    <div id="c_removerole" class="accordion-collapse collapse show" aria-labelledby="h_removerole " data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Removes role from user
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.removerole]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.removerole @user @role &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_upload">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_upload" aria-expanded="true" aria-controls="upload">
+        UPLOAD
+      </button>
+    </h2>
+    <div id="c_upload" class="accordion-collapse collapse show" aria-labelledby="h_upload" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>Adds emoji to server
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.upload]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.upload :emoji: &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_tempmute">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_tempmute" aria-expanded="true" aria-controls="tempmute">
+        TEMPUTE
+      </button>
+    </h2>
+    <div id="c_tempmute" class="accordion-collapse collapse show" aria-labelledby="h_tempmute" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>temporary mute user
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.tempute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.tempmute @user time &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_lock">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_lock" aria-expanded="true" aria-controls="lock">
+        LOCK
+      </button>
+    </h2>
+    <div id="c_lock" class="accordion-collapse collapse show" aria-labelledby="h_lock" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>lock channel
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.lock]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.lock temp 5h &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_slowmode">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_slowmode" aria-expanded="true" aria-controls="slowmode">
+        SLOW MODE
+      </button>
+    </h2>
+    <div id="c_slowmode"  class="accordion-collapse collapse show" aria-labelledby="h_slowmode" data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>text channel make slow mode
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.slowmode]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.slowmode 5s &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="h_vcinfo">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_vcinfo" aria-expanded="true" aria-controls="vcinfo ">
+        VC INFO
+      </button>
+    </h2>
+    <div id="c_vcinfo" class="accordion-collapse collapse show" aria-labelledby="h_vcinfo " data-bs-parent="#acc_MODERATION">
+      <div class="accordion-body">
+      <code>Description : </code>check voice channel info
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[.vcinfo]</small>
+      <br>
+      <code>Usage : </code><small><kbd>.vcinfo &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="ECONOMY" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_ECONOMY">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_help">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_help" aria-expanded="true" aria-controls="help">
+        help
+      </button>
+    </h2>
+    <div id="c_help" class="accordion-collapse collapse show" aria-labelledby="h_help" data-bs-parent="#acc_ECONOMY">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?h]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?help &lt;cmd&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kill">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kill" aria-expanded="false" aria-controls="kill">
+        kill
+      </button>
+    </h2>
+    <div id="c_kill" class="accordion-collapse collapse " aria-labelledby="h_kill" data-bs-parent="#acc_ECONOMY">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code><br>
+      <code>Usage : </code><small><kbd>?kill silent</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_emoji_pp">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_emoji_pp" aria-expanded="false" aria-controls="emoji_pp">
+        emoji_pp
+      </button>
+    </h2>
+    <div id="c_emoji_pp" class="accordion-collapse collapse " aria-labelledby="h_emoji_pp" data-bs-parent="#acc_ECONOMY">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?pp]</small>
+      
+      <small class="text-muted">[?epp]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?emoji_pp &lt;hard/soft/no_pp&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="GIVEAWEAY" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_GIVEAWEAY">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        ban
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_GIVEAWEAY">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?ac]</small>
+      
+      <small class="text-muted">[?addc]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?ban &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="false" aria-controls="kick">
+        kick
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse " aria-labelledby="h_kick" data-bs-parent="#acc_GIVEAWEAY">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_fuck">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_fuck" aria-expanded="false" aria-controls="fuck">
+        fuck
+      </button>
+    </h2>
+    <div id="c_fuck" class="accordion-collapse collapse " aria-labelledby="h_fuck" data-bs-parent="#acc_GIVEAWEAY">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_mute" aria-expanded="false" aria-controls="mute">
+        mute
+      </button>
+    </h2>
+    <div id="c_mute" class="accordion-collapse collapse " aria-labelledby="h_mute" data-bs-parent="#acc_GIVEAWEAY">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?mute &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="GAMES" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_GAMES">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        ban
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_GAMES">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?ac]</small>
+      
+      <small class="text-muted">[?addc]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?ban &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="false" aria-controls="kick">
+        kick
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse " aria-labelledby="h_kick" data-bs-parent="#acc_GAMES">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_fuck">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_fuck" aria-expanded="false" aria-controls="fuck">
+        fuck
+      </button>
+    </h2>
+    <div id="c_fuck" class="accordion-collapse collapse " aria-labelledby="h_fuck" data-bs-parent="#acc_GAMES">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_mute" aria-expanded="false" aria-controls="mute">
+        mute
+      </button>
+    </h2>
+    <div id="c_mute" class="accordion-collapse collapse " aria-labelledby="h_mute" data-bs-parent="#acc_GAMES">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?mute &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="FUN" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_FUN">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        ban
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_FUN">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?ac]</small>
+      
+      <small class="text-muted">[?addc]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?ban &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="false" aria-controls="kick">
+        kick
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse " aria-labelledby="h_kick" data-bs-parent="#acc_FUN">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_fuck">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_fuck" aria-expanded="false" aria-controls="fuck">
+        fuck
+      </button>
+    </h2>
+    <div id="c_fuck" class="accordion-collapse collapse " aria-labelledby="h_fuck" data-bs-parent="#acc_FUN">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_mute" aria-expanded="false" aria-controls="mute">
+        mute
+      </button>
+    </h2>
+    <div id="c_mute" class="accordion-collapse collapse " aria-labelledby="h_mute" data-bs-parent="#acc_FUN">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?mute &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="IMAGE" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_IMAGE">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        ban
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_IMAGE">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?ac]</small>
+      
+      <small class="text-muted">[?addc]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?ban &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="false" aria-controls="kick">
+        kick
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse " aria-labelledby="h_kick" data-bs-parent="#acc_IMAGE">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_fuck">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_fuck" aria-expanded="false" aria-controls="fuck">
+        fuck
+      </button>
+    </h2>
+    <div id="c_fuck" class="accordion-collapse collapse " aria-labelledby="h_fuck" data-bs-parent="#acc_IMAGE">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_mute" aria-expanded="false" aria-controls="mute">
+        mute
+      </button>
+    </h2>
+    <div id="c_mute" class="accordion-collapse collapse " aria-labelledby="h_mute" data-bs-parent="#acc_IMAGE">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?mute &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="MUSIC" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_MUSIC">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        ban
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_MUSIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?ac]</small>
+      
+      <small class="text-muted">[?addc]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?ban &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="false" aria-controls="kick">
+        kick
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse " aria-labelledby="h_kick" data-bs-parent="#acc_MUSIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_fuck">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_fuck" aria-expanded="false" aria-controls="fuck">
+        fuck
+      </button>
+    </h2>
+    <div id="c_fuck" class="accordion-collapse collapse " aria-labelledby="h_fuck" data-bs-parent="#acc_MUSIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_mute" aria-expanded="false" aria-controls="mute">
+        mute
+      </button>
+    </h2>
+    <div id="c_mute" class="accordion-collapse collapse " aria-labelledby="h_mute" data-bs-parent="#acc_MUSIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?mute &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="NSFW" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_NSFW">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        ban
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_NSFW">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?ac]</small>
+      
+      <small class="text-muted">[?addc]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?ban &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="false" aria-controls="kick">
+        kick
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse " aria-labelledby="h_kick" data-bs-parent="#acc_NSFW">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_fuck">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_fuck" aria-expanded="false" aria-controls="fuck">
+        fuck
+      </button>
+    </h2>
+    <div id="c_fuck" class="accordion-collapse collapse " aria-labelledby="h_fuck" data-bs-parent="#acc_NSFW">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_mute" aria-expanded="false" aria-controls="mute">
+        mute
+      </button>
+    </h2>
+    <div id="c_mute" class="accordion-collapse collapse " aria-labelledby="h_mute" data-bs-parent="#acc_NSFW">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?mute &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+      <div class="tab-pane fade show " id="BASIC" role="tabpanel" aria-labelledby="list-home-list">
+
+      <div class="accordion" id="acc_BASIC">
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_ban">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#c_ban" aria-expanded="true" aria-controls="ban">
+        ban
+      </button>
+    </h2>
+    <div id="c_ban" class="accordion-collapse collapse show" aria-labelledby="h_ban" data-bs-parent="#acc_BASIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?ac]</small>
+      
+      <small class="text-muted">[?addc]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?ban &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_kick">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_kick" aria-expanded="false" aria-controls="kick">
+        kick
+      </button>
+    </h2>
+    <div id="c_kick" class="accordion-collapse collapse " aria-labelledby="h_kick" data-bs-parent="#acc_BASIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_fuck">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_fuck" aria-expanded="false" aria-controls="fuck">
+        fuck
+      </button>
+    </h2>
+    <div id="c_fuck" class="accordion-collapse collapse " aria-labelledby="h_fuck" data-bs-parent="#acc_BASIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>BAN_NERD</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?kick]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?kick &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="h_mute">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_mute" aria-expanded="false" aria-controls="mute">
+        mute
+      </button>
+    </h2>
+    <div id="c_mute" class="accordion-collapse collapse " aria-labelledby="h_mute" data-bs-parent="#acc_BASIC">
+      <div class="accordion-body">
+      <code>Description : </code>Add the code on website with the help of this command. <br>
+      <code>Permissions : </code>
+      <kbd>MANAGE_GUILD</kbd>
+      
+      <kbd>MANAGE_MESSAGES</kbd>
+      
+      <kbd>MANAGE_PP</kbd>
+      <br>
+      <code>Aliases : </code>
+      <small class="text-muted">[?mute]</small>
+      <br>
+      <code>Usage : </code><small><kbd>?mute &lt;@mention&gt; &lt;reason&gt;</kbd></small><br>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+      
+        
+      </div>
+    
+    </div>
+  </div>
+</div>
+</div>
+     
+
+
+    </body>
+</html>
